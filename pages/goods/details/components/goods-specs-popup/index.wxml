@@ -68,9 +68,9 @@
       wx:if="{{!outOperateStatus}}"
     >
       <view class="sku-operate">
-        <!-- <view class="selected-sku-btn sku-operate-addCart {{!isStock ? 'disabled' : ''}}" bindtap="addCart">
+        <view class="selected-sku-btn sku-operate-addCart {{!isStock ? 'disabled' : ''}}" bindtap="addCart">
           加入购物车
-        </view> -->
+        </view>
       </view>
       <view class="sku-operate">
         <view class="selected-sku-btn sku-operate-buyNow  {{!isStock ? 'disabled' : ''}}" bindtap="buyNow">

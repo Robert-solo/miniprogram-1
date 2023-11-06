@@ -110,13 +110,13 @@ Page({
     });
   },
 
-  // goodListAddCartHandle() {
-  //   Toast({
-  //     context: this,
-  //     selector: '#t-toast',
-  //     message: '点击加入购物车',
-  //   });
-  // },
+  goodListAddCartHandle() {
+    Toast({
+      context: this,
+      selector: '#t-toast',
+      message: '点击加入购物车',
+    });
+  },
 
   navToSearchPage() {
     wx.navigateTo({ url: '/pages/goods/search/index' });

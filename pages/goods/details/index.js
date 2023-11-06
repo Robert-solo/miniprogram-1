@@ -220,16 +220,16 @@ Page({
     }
   },
 
-  // addCart() {
-  //   const { isAllSelectedSku } = this.data;
-  //   // Toast({
-  //   //   context: this,
-  //   //   selector: '#t-toast',
-  //   //   message: isAllSelectedSku ? '点击加入购物车' : '请选择规格',
-  //   //   icon: '',
-  //   //   duration: 1000,
-  //   // });
-  // },
+  addCart() {
+    const { isAllSelectedSku } = this.data;
+    Toast({
+      context: this,
+      selector: '#t-toast',
+      message: isAllSelectedSku ? '点击加入购物车' : '请选择规格',
+      icon: '',
+      duration: 1000,
+    });
+  },
 
   gotoBuy(type) {
     const { isAllSelectedSku, buyNum } = this.data;

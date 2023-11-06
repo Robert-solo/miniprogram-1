@@ -75,7 +75,7 @@ export function genCartGroupData() {
                   quantity: 1,
                   stockStatus: true,
                   stockQuantity: 177,
-                  // price: '29800',
+                  price: '29800',
                   originPrice: '40000',
                   tagPrice: null,
                   titlePrefixTags: null,

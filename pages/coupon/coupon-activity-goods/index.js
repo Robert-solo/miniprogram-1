@@ -68,11 +68,11 @@ Page({
     wx.navigateTo({ url: `/pages/goods/details/index?spuId=${spuId}` });
   },
 
-  // cartClickHandle() {
-  //   Toast({
-  //     context: this,
-  //     selector: '#t-toast',
-  //     message: '点击加入购物车',
-  //   });
-  // },
+  cartClickHandle() {
+    Toast({
+      context: this,
+      selector: '#t-toast',
+      message: '点击加入购物车',
+    });
+  },
 });
